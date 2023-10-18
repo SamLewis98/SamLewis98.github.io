@@ -324,4 +324,14 @@ a:hover{
     margin: 1rem;
     color: rgb(163, 163, 163);
   }
+
+  /* FOOTER SECTION */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
   
+  footer p {
+    text-align: center;
+  }
