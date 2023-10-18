@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -309,6 +309,10 @@ a:hover{
     border-color: rgb(163, 163, 163);
     text-align: center;
   }
+  .skill-details-container .text-container{
+    padding: 1rem;
+    align-content: center;
+  }
 
  .colour-container{
     border-color: rgb(163, 163, 163);
@@ -335,3 +339,4 @@ footer {
   footer p {
     text-align: center;
   }
+  
