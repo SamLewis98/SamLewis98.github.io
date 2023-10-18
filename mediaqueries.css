@@ -10,6 +10,11 @@
       #skills{
         height: fit-content;
       }
+
+      #achievements, #experience, #feedback{
+        height: fit-content;
+      }
+
    
 }
 
@@ -50,6 +55,7 @@
 
 
   @media screen and (max-width: 600px) {
+
 
     #nav {
         display: none;
