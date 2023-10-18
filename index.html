@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sam Lewis - Professional Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+        <script src="script.js"></script>
+       
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav id="nav">
+            <div class="logo">Sam Lewis</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Sam Lewis</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()" >
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </div>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+                    <li><a href="#feedback"onclick="toggleMenu()">Feedback</a></li>
+                </div>
+            </div>
+        </nav>
+
+    <!--Profile-->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Images/Profile Picture.jpeg" alt="Sam Lewis avatar picture"/>
+            
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sam Lewis</h1>
+            <p class="section__text__p2">JADE Developer</p>
+            <p class="section__text__p1">Skipton Building Society</p>
+        </div>
+    </section>
+    
+    <!--About me-->
+    <section id="about">
+        <p class="section__text__p1">My journey so far...</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./Images/SLAvatar.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                src="./Images/briefcase.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                
+              <h3>Experience</h3>
+              <p>2+ years <br />Backend JADE Development</p>
+            </div>
+            <div class="details-container">
+               <img
+                src="./Images/education.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Level 4 Software Engineering Apprentice<br />Jun 22 - Dec 23</p>
+            </div>
+          </div>
+          <div class="skill-details-container">
+
+                <div class="text-container">
+                    <p>
+                        I started my career in software development back in March 2021.
+                        I joined Skipton as a trainee software engineer and over the course of around 12 months,
+                        I have worked my way through a progression matrix and progressed to 'Associate Software Engineer'.
+                    </p>
+
+                    <p><br> I'm now looking to progress onto the next chapter of my career, with aim of progressing to 'Software Engineer'.</p>
+                
+                    <p>
+                       <br> Over the past 18 months I have been working through a level 4 software engieering apprenticeship,
+                        this has given me the opportunity to learn lots of new languages and deep dive into
+                        some key software engineering methodologies. 
+                        keep scrolling to find out more about my experinces and what I've learnt!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="./Images/downArrow.png"
+                alt="Arrow icon"
+                class="icon arrow"
+                onclick="location.href='./#experience'"
+                />
+            </section>
+              
+<!--Experience-->           
+            
+                <section id="experience">
+                 <p class="section__text__p1">What I've learnt...</p>
+                    <h1 class="title">Experience</h1>
+                        <div class="experience-details-container">
+                             <div class="about-containers">
+                                 <div class="details-container">
+                                    <h2 class="experience-sub-title">Programming Languages</h2>
+                                    <div class="article-container">
+                                        <article>
+                                          <img
+                                            src="./Images/tick.png"
+                                            alt="Experience icon"
+                                            class="icon"
+                                          />
+                                          <div>
+                                            <h3>JADE</h3>
+                                            <p>Experienced</p>
+                                          </div>
+                                        </article>
+                                        <article>
+                                            <img
+                                              src="./Images/tick.png"
+                                              alt="Experience icon"
+                                              class="icon"
+                                            />
+                                            <div>
+                                              <h3>C#</h3>
+                                              <p>Intermediate</p>
+                                            </div>
+                                          </article>
+                                          <article>
+                                            <img
+                                              src="./Images/tick.png"
+                                              alt="Experience icon"
+                                              class="icon"
+                                            />
+                                            <div>
+                                              <h3>HTML</h3>
+                                              <p>Intermediate</p>
+                                            </div>
+                                          </article>
+                                          <article>
+                                            <img
+                                              src="./Images/tick.png"
+                                              alt="Experience icon"
+                                              class="icon"
+                                            />
+                                            <div>
+                                              <h3>CSS</h3>
+                                              <p>Intermediate</p>
+                                            </div>
+                                          </article>
+                                          <article>
+                                            <img
+                                              src="./Images/tick.png"
+                                              alt="Experience icon"
+                                              class="icon"
+                                            />
+                                            <div>
+                                              <h3>JavaScript</h3>
+                                              <p>Basic</p>
+                                            </div>
+                                          </article>
+                                        </div>
+                                    </div>
+
+
+                                          <!--Skills container-->
+                                          <div class="details-container">
+                                            <h2 class="experience-sub-title">Skills</h2>
+                                            <div class="article-container">
+                                                <article>
+                                                  <img
+                                                    src="./Images/tick.png"
+                                                    alt="Experience icon"
+                                                    class="icon"
+                                                  />
+                                                  <div>
+                                                    <h3>DevOps</h3>
+                                                    <p>Experienced</p>
+                                                  </div>
+                                                </article>
+                                                <article>
+                                                    <img
+                                                      src="./Images/tick.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Web Dev</h3>
+                                                      <p>Intermediate</p>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/tick.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Testing</h3>
+                                                      <p>Intermediate</p>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/tick.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Agile</h3>
+                                                      <p>Experienced</p>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/tick.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Training</h3>
+                                                      <p>Experienced</p>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/tick.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>CCM</h3>
+                                                      <p>Experienced</p>
+                                                    </div>
+                                                  </article>
+                                    </div>
+                                 </div>
+                                </div>
+                            </div>
+                            <img
+                            src="./Images/downArrow.png"
+                            alt="Arrow icon"
+                            class="icon arrow"
+                            onclick="location.href='./#skills'"
+                            />
+                     </section>
+
+                     <!--Skills-->
+                     <section id="skills">
+                        <p class="section__text__p1">A deeper dive...</p>
+                        <h1 class="title">Skills</h1>
+                        <div class="experience-details-container">
+                          <div class="about-containers">
+                            <div class="skill-details-container color-container">
+                              <div class="article-container">
+                                <img
+                                  src="./Images/AgileDevops.jpg"
+                                  alt="DevOps & Agile image"
+                                  class="project-img"
+                                />
+                              </div>
+                              <h2 class="experience-sub-title project-title">DevOps & Agile</h2>
+                              <p>A good understanding of how we utilise DevOps to deliver change.
+                                Expereinced using both Agile methodology, Waterfall & Scrum. 
+                              </p>
+                              <div class="btn-container">
+                              </div>
+                            </div>
+                            <div class="skill-details-container color-container">
+                              <div class="article-container">
+                                <img
+                                  src="./Images/pc.jpg"
+                                  alt="Source Control image"
+                                  class="project-img"
+                                />
+                              </div>
+                              <h2 class="experience-sub-title project-title">Source Control</h2>
+                              <p>I have a good understanding of how to progress changes
+                                through the phases of the software development lifecycle.
+                                My CCM Admin responsiblities include building JARI's to deploy daily code,
+                                building environment restores & loading patches.
+                              </p>
+                              <div class="btn-container">
+                              </div>
+                            </div>
+                            <div class="skill-details-container color-container">
+                              <div class="article-container">
+                                <img
+                                  src="./Images/pc2.png"
+                                  alt="Automation image"
+                                  class="project-img"
+                                />
+                              </div>
+                              <h2 class="experience-sub-title project-title">Automation</h2>
+                              <p>I have experience writing automated tests using c# and Selenium. 
+                                Familiar with how we can automate the deployment process by using continous intergration & continous deployment.
+                              </p>
+                              <div class="btn-container">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="experience-details-container">
+                            <div class="about-containers">
+                              <div class="skill-details-container color-container">
+                                <div class="article-container">
+                                  <img
+                                    src="./Images/architecture.jpg"
+                                    alt="DevOps & Agile image"
+                                    class="project-img"
+                                  />
+                                </div>
+                                <h2 class="experience-sub-title project-title">Core Architecure</h2>
+                                <p>A solid understanding of the monolithic architecture and how our services interact with each other.
+                                    Also have an understanding of microservices & APIs, including the benefits.
+                                </p>
+                                <div class="btn-container">
+                                </div>
+                              </div>
+                              <div class="skill-details-container color-container">
+                                <div class="article-container">
+                                  <img
+                                    src="./Images/programming.jpeg"
+                                    alt="Source Control image"
+                                    class="project-img"
+                                  />
+                                </div>
+                                <h2 class="experience-sub-title project-title">Standards & Design Principles</h2>
+                                <p>Good knowledge of industry coding standards, polocies and design principles. </p>
+                                <div class="btn-container">
+                                </div>
+                              </div>
+                              <div class="skill-details-container color-container">
+                                <div class="article-container">
+                                  <img
+                                    src="./Images/stakeholders.jpg"
+                                    alt="Automation image"
+                                    class="project-img"
+                                  />
+                                </div>
+                                <h2 class="experience-sub-title project-title">Stakeholder Engagement</h2>
+                                <p>I have lots of experience working with both techincal/non techincal
+                                    stakeholders. How to adjust my language to suit the audience and ensure
+                                    I get my points across.
+                                </p>
+                                <div class="btn-container">
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <img
+                          src="./Images/downArrow.png"
+                          alt="Arrow icon"
+                          class="icon arrow"
+                          onclick="location.href='./#achievements'"
+                          />
+                          </section>
+                          
+                          <!--Achievements-->
+                          <section id="achievements">
+                            <p class="section__text__p1">My great successes...</p>
+                               <h1 class="title">Achievements</h1>
+                                   <div class="experience-details-container">
+                                        <div class="about-containers">
+                                            <div class="details-container">
+                                               
+                                               <div class="article-container">
+                                                   <article>
+                                                     <img
+                                                       src="./Images/achievement.png"
+                                                       alt="Experience icon"
+                                                       class="icon"
+                                                     />
+                                                     <div>
+                                                       <h3>Volunteered for On Call</h3>
+                                                     </div>
+                                                   </article>
+                                                   <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Training & Mentoring</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Apprenticeship Portfolio</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>JADE & IT Collaboration</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>4 New Languages</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Acting Senior in swarm</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Leading Performance H1</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>CCM Admin</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Skills Matrix</h3>
+                                                    </div>
+                                                  </article>
+                                                  <article>
+                                                    <img
+                                                      src="./Images/achievement.png"
+                                                      alt="Experience icon"
+                                                      class="icon"
+                                                    />
+                                                    <div>
+                                                      <h3>Achievement</h3>
+                                                    </div>
+                                                  </article>
+                                                   
+                                                </div>
+                                               </div>
+                                               
+                                            </div>
+                                          
+                                        </div>
+                                        
+                                        <img
+                                src="./Images/downArrow.png"
+                                alt="Arrow icon"
+                                class="icon arrow"
+                                onclick="location.href='./#feedback'"
+                                />
+                      </section>
+                                
+
+                                              
+                                               
+                                              
+                     
+                    <!--Feedback-->
+                    <section id="feedback">
+                        <p class="section__text__p1">What do others think...</p>
+                        <h1 class="title">Feedback</h1>
+                        <div class="skill-details-container">
+                            <img
+                            src="./Images/feedback2png.png"
+                            alt="Experience icon"
+                            class="icon"
+                              />
+                            <div class="text-container">
+                                <p>
+                                    "Sam has been a great support for the chort since the beginning.
+                                    Although "only" an associate he went above and beyond to really help 
+                                    with our learning and to organise the training pack."
+                                </p>
+            
+                                <p><br> Sam also undertook one of the trainee's as a mentee and fully supports them
+                                    1-1, which I thought was very impressive to do as an associate".
+                                </p>
+                            
+                                <p>
+                                   <br>"Sam has been somewhat of an inspiration for me, seeing ehat level hae has been
+                                   working at as an associate has really set the bar for me." - MG
+                                </p>
+                              </div>
+                            </div>
+                            <br>
+                            <div class="skill-details-container">
+                                <img
+                                src="./Images/feedback2png.png"
+                                alt="Experience icon"
+                                class="icon"
+                                  />
+                                <div class="text-container">
+                                    <p>
+                                        "Firstly, the time and effrt that went into your slidew was clear to see. Very detailed,
+                                        visually pleasing and there was a good level knowledge displayed for the audience."
+                                    </p>
+                
+                                    <p><br>"Secondly, the pace at which you wen through your slides was perfect. You often paused and gave the 
+                                        audience time to ask questions and this allowed participants to ask questions where necessary."
+                                    </p>
+                                
+                                    <p>
+                                       <br>"Finally, the audience really bought into you and your personality, I think you did a great job of
+                                       bringing them along during the session. The tone and pace of your delivery was very good and you finished
+                                       by asking the team to reach out. All in all, it was a really good presentation adn you did yourself
+                                       and the department proud." - OF
+                                    </p>
+                                  </div>
+                                </div>
+                        </section>
+
+
+
+
+
+
+                        
+
+                        
+                              
+            </body>
+</html>
