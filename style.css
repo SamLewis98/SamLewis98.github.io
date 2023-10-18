@@ -329,6 +329,16 @@ a:hover{
     color: rgb(163, 163, 163);
   }
 
+  .details-container{
+    opacity: 80%;
+  }
+
+  .details-container p{
+    color: rgb(102, 102, 102)
+  }
+  .details-container h2 {
+    color: #1f1f21;
+  }
   /* FOOTER SECTION */
 
 footer {
