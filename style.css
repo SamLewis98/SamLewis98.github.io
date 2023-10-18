@@ -313,6 +313,10 @@ a:hover{
     padding: 1rem;
     align-content: center;
   }
+  .skill-details-container .text-container p{
+    align-items: center;
+    text-align: center;
+  }
 
  .colour-container{
     border-color: rgb(163, 163, 163);
@@ -349,4 +353,5 @@ footer {
   footer p {
     text-align: center;
   }
+  
   
